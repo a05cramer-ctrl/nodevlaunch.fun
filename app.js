@@ -102,7 +102,7 @@
           line.innerHTML = '<a href="' + C.solscan(launcher) + '" target="_blank" rel="noopener">' + short + '</a> creates every Nodev coin. It holds <b>' + n.toLocaleString('en-US') + ' $NODEV</b> right now, checked live on Solana.';
         }).catch(() => { line.innerHTML = '<a href="' + C.solscan(launcher) + '" target="_blank" rel="noopener">' + short + '</a> creates every Nodev coin. Live check unavailable right now; open it on Solscan.'; });
     } else {
-      line.innerHTML = '<a href="' + C.solscan(launcher) + '" target="_blank" rel="noopener">' + short + '</a> creates every Nodev coin, including this one. Its balance is checked live here once $NODEV is live.';
+      line.innerHTML = '<a href="' + C.solscan(launcher) + '" target="_blank" rel="noopener">' + short + '</a> creates every Nodev coin. Its balance is checked live here once $NODEV is live.';
     }
   }
 

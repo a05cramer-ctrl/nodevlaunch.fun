@@ -4,7 +4,7 @@ Static site: no build step, no backend.
 
 ## Before launch
 Edit only `config.js`:
-- `ca`: the $NODEV mint. Empty = "Launching soon" + countdown. Filled = CA box, Copy, Raydium and DexScreener buttons and live market data go live.
+- `ca`: the $NODEV mint (set). Empty = "Launching soon" + countdown. Filled = CA box, Copy, pump.fun and DexScreener buttons and live market data go live.
 - `launcher`: the public launcher wallet (shown on the token card with a live "holds nothing" balance check).
 - `launchesOpen`: the date launches open for everyone (shown on the Reserve section).
 - `links.x`: your X link.
