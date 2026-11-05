@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Nodev mark">
+  <defs>
+    <linearGradient id="ng" gradientUnits="userSpaceOnUse" x1="880" y1="120" x2="120" y2="880">
+      <stop offset="0" stop-color="#C200FB"/>
+      <stop offset=".5" stop-color="#3772FF"/>
+      <stop offset="1" stop-color="#5AC4BE"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#ng)">
+    <path d="M500 110a390 390 0 1 0 0 780a390 390 0 1 0 0-780zm0 122a268 268 0 1 1 0 536a268 268 0 1 1 0-536z" fill-rule="evenodd"/>
+    <rect x="-20" y="440" width="1040" height="120" rx="14" transform="rotate(-45 500 500)"/>
+  </g>
+</svg>

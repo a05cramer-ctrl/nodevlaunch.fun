@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nodev · coins with no dev</title>
+<meta name="description" content="Nodev is a Solana launchpad where nobody owns the coin. No dev wallet, no dev bag, no dev fees. What a dev would earn goes to the holders.">
+<meta property="og:title" content="Nodev · coins with no dev">
+<meta property="og:description" content="No dev wallet. No dev bag. No dev fees. What a dev would earn goes to the holders.">
+<meta property="og:image" content="assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1022">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch.png">
+<link rel="preload" href="assets/fonts/intertight.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/jbmono.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="ng" gradientUnits="userSpaceOnUse" x1="880" y1="120" x2="120" y2="880">
+      <stop offset="0" stop-color="#C200FB"/><stop offset=".5" stop-color="#3772FF"/><stop offset="1" stop-color="#5AC4BE"/>
+    </linearGradient>
+    <linearGradient id="ngs" gradientUnits="userSpaceOnUse" x1="880" y1="120" x2="120" y2="880">
+      <stop offset="0" stop-color="#C200FB"/><stop offset=".5" stop-color="#3772FF"/><stop offset="1" stop-color="#5AC4BE"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 500 500" to="360 500 500" dur="16s" begin="indefinite" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!-- intro -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-in">
+    <svg class="intro-mark" viewBox="0 0 1000 1000">
+      <circle class="i-ring" cx="500" cy="500" r="330" fill="none" stroke="url(#ng)" stroke-width="122" pathLength="1" transform="rotate(-90 500 500)"/>
+      <line class="i-bar" x1="150" y1="850" x2="850" y2="150" stroke="url(#ng)" stroke-width="120" pathLength="1"/>
+    </svg>
+    <div class="intro-word" aria-hidden="true"><span>N</span><span>O</span><span>D</span><span>E</span><span>V</span></div>
+    <div class="intro-tag">Coins with no dev.</div>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top"><img src="mark.svg" alt=""><span>NODEV</span></a>
+    <div class="nav-links">
+      <a href="#why">Why</a>
+      <a href="#how">How it works</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#token">Token</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-x" data-x href="#" target="_blank" rel="noopener">X ↗</a>
+      <a class="btn btn-sm" data-buy href="#token">Buy $NODEV</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <div class="kicker">Solana launchpad · built on Raydium LaunchLab</div>
+      <h1>Coins with<br><em>no dev.</em></h1>
+      <p class="lead">On Nodev, nobody owns the coin. No dev wallet, no dev bag, no dev fees. What a dev would normally keep is paid to the holders instead.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#reserve">Reserve a ticker</a>
+        <button class="ca-pill" data-ca-pill type="button"><span class="dot"></span><span data-ca-label>Launching soon</span></button>
+      </div>
+    </div>
+    <div class="hero-art" id="heroArt">
+      <svg class="hero-mark" viewBox="0 0 1000 1000" aria-label="Nodev mark">
+        <circle cx="500" cy="500" r="330" fill="none" stroke="url(#ngs)" stroke-width="122"/>
+        <line x1="150" y1="850" x2="850" y2="150" stroke="url(#ngs)" stroke-width="120"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="kicker">Why</div>
+    <h2>Every memecoin has a dev.<br>The dev has a bag.</h2>
+    <p class="sub">The bag gets dumped, the creator fees keep flowing to him anyway, and the coin is dead by morning. Nodev removes the dev.</p>
+    <div class="compare reveal">
+      <div class="cmp-head"><span></span><span>A normal launch</span><span class="cmp-nd">A Nodev coin</span></div>
+      <div class="cmp-row"><span>Dev wallet</span><span>One wallet with the keys</span><span class="cmp-nd">None</span></div>
+      <div class="cmp-row"><span>Dev bag</span><span>5–20% of supply</span><span class="cmp-nd">0%</span></div>
+      <div class="cmp-row"><span>Creator fees</span><span>Paid to the dev</span><span class="cmp-nd">Paid to the holders</span></div>
+      <div class="cmp-row"><span>Who can dump on you</span><span>The dev</span><span class="cmp-nd">Nobody. There is no dev.</span></div>
+      <div class="cmp-row"><span>Who wins when it runs</span><span>The dev first</span><span class="cmp-nd">Everyone who holds</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="kicker">How it works</div>
+    <h2>Nobody owns it.<br>Everybody gets paid.</h2>
+    <div class="steps">
+      <div class="step reveal"><span class="num">01</span><h3>Anyone proposes a coin</h3><p>Name, ticker, image, 0.1 SOL. That's all you give, and it's all you get. No bag, no fees, no keys.</p></div>
+      <div class="step reveal"><span class="num">02</span><h3>The launcher creates it</h3><p>One public Nodev wallet launches every coin on Raydium LaunchLab. It never holds a token. You can watch it on Solscan.</p></div>
+      <div class="step reveal"><span class="num">03</span><h3>Fees go to holders</h3><p>Every week, the fees a dev would have kept are paid out in SOL to the coin's holders, pro-rata. Hold the coin, get the pay.</p></div>
+    </div>
+    <div class="fees reveal">
+      <div class="fee-bar"><span style="--w:50">50%</span><span style="--w:25">25%</span><span style="--w:25">25%</span></div>
+      <div class="fee-legend">
+        <div><b>50%</b> paid to the coin's holders, weekly, in SOL</div>
+        <div><b>25%</b> buys back and burns $NODEV</div>
+        <div><b>25%</b> runs the launcher and payouts</div>
+      </div>
+      <pre class="rule"><span class="c">// the whole rule</span>
+coin.dev = null
+coin.fees → holders</pre>
+    </div>
+  </div>
+</section>
+
+<section class="reserve" id="reserve">
+  <div class="wrap">
+    <div class="kicker">Reserve a ticker · launches open <span data-opens>soon</span></div>
+    <h2>Claim your ticker<br>before launches open.</h2>
+    <p class="sub">Pick the name of the coin you'd launch on Nodev, get a card, post it. Tickers posted first get launched first when the launcher opens.</p>
+    <form class="rs-form" id="rsForm" autocomplete="off">
+      <input id="rsTicker" type="text" maxlength="10" placeholder="TICKER" aria-label="Ticker" spellcheck="false">
+      <input id="rsName" type="text" maxlength="28" placeholder="Coin name" aria-label="Coin name" spellcheck="false">
+      <button class="btn btn-primary" type="submit">Make my card</button>
+    </form>
+    <div class="rs-out" id="rsOut" hidden>
+      <canvas id="rsCanvas" width="1200" height="630" aria-label="Reservation card"></canvas>
+      <div class="rs-actions">
+        <button class="btn btn-ghost" id="rsSave" type="button">Save card (PNG)</button>
+        <a class="btn btn-ghost" id="rsPost" target="_blank" rel="noopener">Post on X ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="token" id="token">
+  <div class="wrap">
+    <div class="card reveal">
+      <div class="card-top">
+        <img src="assets/pfp.png" alt="$NODEV" class="card-mark">
+        <div><div class="card-t">$NODEV</div><div class="card-s">Nodev · Solana · Raydium LaunchLab</div></div>
+        <div class="badge" data-state-badge><span class="dot"></span><span>Launching soon</span></div>
+      </div>
+      <div class="stats">
+        <div><span>Supply</span><b>1,000,000,000</b></div>
+        <div><span>Dev bag</span><b>0%</b></div>
+        <div><span>Tax</span><b>0%</b></div>
+        <div><span>Fees to holders</span><b>50%</b></div>
+      </div>
+      <div class="live" data-live hidden>
+        <div><span>Market cap</span><b data-mcap>—</b></div>
+        <div><span>24h volume</span><b data-vol>—</b></div>
+        <div><span>Liquidity</span><b data-liq>—</b></div>
+      </div>
+      <div class="ca-box">
+        <span class="ca-k">CA</span>
+        <code data-ca-text>Published at launch · <span data-countdown>—</span></code>
+        <button class="btn btn-ghost btn-sm" data-copy type="button" disabled>Copy</button>
+      </div>
+      <div class="chips">
+        <a class="chip" data-buy href="#" target="_blank" rel="noopener">Raydium ↗</a>
+        <a class="chip" data-chart href="#" target="_blank" rel="noopener">DexScreener ↗</a>
+        <a class="chip" data-x href="#" target="_blank" rel="noopener">X ↗</a>
+      </div>
+      <div class="launcher">
+        <div class="launcher-k">Launcher wallet · holds nothing, ever</div>
+        <div class="launcher-v" id="launcherLine">Published at launch. It creates every Nodev coin, including this one, and its balance is checked live here.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><b>Nodev is in development.</b> The launcher and the weekly holder payouts are not live yet; launches open on the date above. $NODEV launches on Raydium LaunchLab with no team allocation. "Built on Raydium LaunchLab" describes the venue only: Nodev is an independent project, not affiliated with, endorsed by or vetted by Raydium. Not audited. Not financial advice.</p>
+    <p class="muted">© Nodev</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
